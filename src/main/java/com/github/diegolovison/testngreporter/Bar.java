@@ -1,8 +1,8 @@
 package com.github.diegolovison.testngreporter;
 
-public class Foo {
+public class Bar {
 
-   public String foo(String a) {
+   public String bar(String a) {
       return a;
    }
 }

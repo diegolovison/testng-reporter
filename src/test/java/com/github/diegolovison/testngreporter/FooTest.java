@@ -1,19 +1,31 @@
 package com.github.diegolovison.testngreporter;
 
 import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.SkipException;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
 
 public class FooTest {
 
    @BeforeClass
-   public void prepareTest() {
-      throw new NullPointerException();
+   public void prepareTest1() {
+      System.out.println("1");
    }
 
-   @Test
-   public void testBar() {
+   @BeforeClass
+   public void prepareTest2() {
+      //throw new NullPointerException();
+   }
+
+   @Test(groups = "windows")
+   public void a() {
       Foo f = new Foo();
-      Assert.assertEquals("a", f.bar("a"));
+      Assert.assertEquals("a", f.foo("a"));
+   }
+
+   @Test(groups = "linux")
+   public void b() {
+      Assert.assertEquals(true, !false);
    }
 }
