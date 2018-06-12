@@ -10,12 +10,10 @@ public class FooTest {
 
    @BeforeClass
    public void prepareTest1() {
-      System.out.println("1");
    }
 
    @BeforeClass
    public void prepareTest2() {
-      //throw new NullPointerException();
    }
 
    @Test(groups = "windows")

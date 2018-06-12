@@ -8,7 +8,6 @@ public class BarTest {
 
    @BeforeMethod
    public void setup() {
-      //throw new NullPointerException();
    }
 
    @Test
