@@ -1,18 +1,18 @@
 package com.github.diegolovison.testngreporter;
 
 import org.junit.Assert;
-import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+@org.junit.Ignore
 public class FooTest {
 
-   @BeforeClass
+   @BeforeClass(groups = "windows")
    public void prepareTest1() {
    }
 
-   @BeforeClass
+   @BeforeClass(groups = "linux")
    public void prepareTest2() {
    }
 
