@@ -36,6 +36,9 @@
                 <version>2.18.1</version>
                 <configuration>
                     <excludedGroups>windows</excludedGroups>
+                    <properties>
+                        <listener>com.github.diegolovison.testngreporter.listener.PolarionReporter</listener>
+                    </properties>
                 </configuration>
             </plugin>
             <plugin>

@@ -1,34 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="49" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+  <suite name="Surefire suite" duration-ms="122" started-at="2018-06-19T17:25:44Z" finished-at="2018-06-19T17:25:44Z">
     <groups>
       <group name="linux">
-        <method signature="FooTest.b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@6a5fc7f7]" name="b" class="com.github.diegolovison.testngreporter.FooTest"/>
+        <method signature="FooTest.b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@3f3afe78]" name="b" class="com.github.diegolovison.testngreporter.FooTest"/>
       </group> <!-- linux -->
     </groups>
-    <test name="Surefire test" duration-ms="49" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+    <test name="Surefire test" duration-ms="122" started-at="2018-06-19T17:25:44Z" finished-at="2018-06-19T17:25:44Z">
       <class name="com.github.diegolovison.testngreporter.BarTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@5594a1b5]" name="setup" is-config="true" duration-ms="12" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@880ec60]" name="setup" is-config="true" duration-ms="1" started-at="2018-06-19T17:25:44Z" finished-at="2018-06-19T17:25:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="a()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@5594a1b5]" name="a" duration-ms="3" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+        <test-method status="PASS" signature="a()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@880ec60]" name="a" duration-ms="3" started-at="2018-06-19T17:25:44Z" finished-at="2018-06-19T17:25:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
       </class> <!-- com.github.diegolovison.testngreporter.BarTest -->
       <class name="com.github.diegolovison.testngreporter.FooTest">
-        <test-method status="PASS" signature="b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@6a5fc7f7]" name="b" duration-ms="1" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b -->
-        <test-method status="PASS" signature="prepareTest2()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@6a5fc7f7]" name="prepareTest2" is-config="true" duration-ms="0" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+        <test-method status="PASS" signature="prepareTest2()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@3f3afe78]" name="prepareTest2" is-config="true" duration-ms="0" started-at="2018-06-19T17:25:44Z" finished-at="2018-06-19T17:25:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTest2 -->
+        <test-method status="PASS" signature="b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@3f3afe78]" name="b" duration-ms="0" started-at="2018-06-19T17:25:44Z" finished-at="2018-06-19T17:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
       </class> <!-- com.github.diegolovison.testngreporter.FooTest -->
+      <class name="com.github.diegolovison.testngreporter.ParamTest">
+        <test-method status="PASS" signature="testAssertEquals(java.lang.String, java.lang.String)[pri:0, instance:com.github.diegolovison.testngreporter.ParamTest@b684286]" name="testAssertEquals" duration-ms="22" started-at="2018-06-19T17:25:44Z" data-provider="test1" finished-at="2018-06-19T17:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssertEquals -->
+        <test-method status="PASS" signature="testAssertEquals(java.lang.String, java.lang.String)[pri:0, instance:com.github.diegolovison.testngreporter.ParamTest@b684286]" name="testAssertEquals" duration-ms="1" started-at="2018-06-19T17:25:44Z" data-provider="test1" finished-at="2018-06-19T17:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssertEquals -->
+        <test-method status="PASS" signature="testAssertEquals(java.lang.String, java.lang.String)[pri:0, instance:com.github.diegolovison.testngreporter.ParamTest@b684286]" name="testAssertEquals" duration-ms="0" started-at="2018-06-19T17:25:44Z" data-provider="test1" finished-at="2018-06-19T17:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssertEquals -->
+        <test-method status="PASS" signature="testAssertEquals(java.lang.String, java.lang.String)[pri:0, instance:com.github.diegolovison.testngreporter.ParamTest@b684286]" name="testAssertEquals" duration-ms="1" started-at="2018-06-19T17:25:44Z" data-provider="test1" finished-at="2018-06-19T17:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssertEquals -->
+      </class> <!-- com.github.diegolovison.testngreporter.ParamTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
