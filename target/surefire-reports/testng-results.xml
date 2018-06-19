@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="49" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+  <suite name="Surefire suite" duration-ms="27" started-at="2018-06-19T16:43:36Z" finished-at="2018-06-19T16:43:36Z">
     <groups>
       <group name="linux">
-        <method signature="FooTest.b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@6a5fc7f7]" name="b" class="com.github.diegolovison.testngreporter.FooTest"/>
+        <method signature="FooTest.b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@57829d67]" name="b" class="com.github.diegolovison.testngreporter.FooTest"/>
       </group> <!-- linux -->
     </groups>
-    <test name="Surefire test" duration-ms="49" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+    <test name="Surefire test" duration-ms="27" started-at="2018-06-19T16:43:36Z" finished-at="2018-06-19T16:43:36Z">
       <class name="com.github.diegolovison.testngreporter.BarTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@5594a1b5]" name="setup" is-config="true" duration-ms="12" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@5b464ce8]" name="setup" is-config="true" duration-ms="5" started-at="2018-06-19T16:43:36Z" finished-at="2018-06-19T16:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="a()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@5594a1b5]" name="a" duration-ms="3" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+        <test-method status="PASS" signature="a()[pri:0, instance:com.github.diegolovison.testngreporter.BarTest@5b464ce8]" name="a" duration-ms="2" started-at="2018-06-19T16:43:36Z" finished-at="2018-06-19T16:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
       </class> <!-- com.github.diegolovison.testngreporter.BarTest -->
       <class name="com.github.diegolovison.testngreporter.FooTest">
-        <test-method status="PASS" signature="b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@6a5fc7f7]" name="b" duration-ms="1" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b -->
-        <test-method status="PASS" signature="prepareTest2()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@6a5fc7f7]" name="prepareTest2" is-config="true" duration-ms="0" started-at="2018-06-12T18:45:54Z" finished-at="2018-06-12T18:45:54Z">
+        <test-method status="PASS" signature="prepareTest2()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@57829d67]" name="prepareTest2" is-config="true" duration-ms="0" started-at="2018-06-19T16:43:36Z" finished-at="2018-06-19T16:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTest2 -->
+        <test-method status="PASS" signature="b()[pri:0, instance:com.github.diegolovison.testngreporter.FooTest@57829d67]" name="b" duration-ms="0" started-at="2018-06-19T16:43:36Z" finished-at="2018-06-19T16:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
       </class> <!-- com.github.diegolovison.testngreporter.FooTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

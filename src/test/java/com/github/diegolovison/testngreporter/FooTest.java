@@ -26,4 +26,9 @@ public class FooTest {
    public void b() {
       Assert.assertEquals(true, !false);
    }
+
+   @Test(groups = "linux", enabled = false)
+   public void c() {
+      Assert.assertEquals("c", "c");
+   }
 }
